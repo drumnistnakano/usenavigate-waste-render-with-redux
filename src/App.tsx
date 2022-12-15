@@ -1,7 +1,7 @@
 import './styles.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Root from '../routes/root';
-import Team from '../routes/team';
+import Root from './routes/root';
+import Team from './routes/team';
 
 const router = createBrowserRouter([
   {
